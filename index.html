@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="styleSheet" href="index.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+  <!---------------------------------------------Header---------------------------------------------------->
+
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="img/mylogo.png" class="logo">
+        <ul id="sidebar">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-regular hide-icon fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+
+        <i class="fa-solid hide-icon fa-bars" onclick="openmenu()"></i>
+
+      </nav>
+
+      <div class="header-text">
+        <p>Web Developer & Designer</p>
+        <h1>Hi, i'm <span>Abadoth</span><br>from India..</h1>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!----------------------------------------------About---------------------------------------------------->
+
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="img/profile.png">
+        </div>
+        <div class="about-col2">
+          <h1 class="sub-title">About me</h1>
+          <p>Hey connection, I'm Abadoth Ali Khan, from the charming town of Bankura in West Bengal, I completed my
+            schooling with the West Bengal Council of Higher Secondary Education in 2020. In 2022, I successfully
+            undertook the challenge of the Common Entrance Test, paving my way into the world of computer applications.
+            Currently, I'm immersed in the stimulating environment of Bachelor of Computer Application at Narula
+            Institute of Technology, affiliated with the esteemed Maulana Abul Kalam Azad University of Technology...
+          </p>
+
+          <div class="details">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+
+          </div>
+
+          <div class="tab-contents active-tab " id="Skills">
+            <ul>
+              <li><span>Programming Language:</span><br>C, Java & Python</li>
+              <li><span>Development:</span><br>Fontend Development</li>
+              <li><span>Others:</span><br>Dbms, Dsa, Os & Ai</li>
+            </ul>
+          </div>
+
+
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>Graduation:</span><br>Narula Institute of Technology, 2025</li>
+              <li><span>Higher Secondary:</span><br>Gopinathpur S.B High School, 2020</li>
+            </ul>
+          </div>
+
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Loading........</span></li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------------------skills---------------------------------------------------->
+
+  <div id="skills">
+
+    <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+
+
+      <div class="skills-list">
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Wev Development</h2>
+          <p>Web development is the art of crafting digital experiences on the internet. It involves designing, coding,
+            and maintaining websites and web applications. Web developers use various technologies and programming
+            languages to bring ideas to life in the digital realm. Their work shapes the way we interact with
+            information and services online, influencing the digital landscape of today and tomorrow.</p>
+          <a href="#">learn more..</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Wev Designed</h2>
+          <p>Web design is the process of creating visually appealing and user-friendly interfaces for websites and web
+            applications. It involves combining elements like layout, color, typography, and imagery to convey
+            information effectively and enhance user experience. Web designers focus on aesthetics and functionality,
+            striving to create engaging and intuitive digital experiences. </p>
+          <a href="#">learn more..</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Languages</h2>
+          <p>A programming language is a set of rules enabling developers to communicate with computers. It allows them
+            to create software and digital solutions by writing instructions that computers can understand and execute.
+            With various languages available, developers can choose the most suitable one for their project, each
+            offering unique features and capabilities to solve different types of problems efficiently.</p>
+          <a href="#">learn more..</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!----------------------------------------------project---------------------------------------------------->
+
+  <div id="project">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+
+      <div class="work-list">
+
+        <div class="work">
+          <img src="img/shoping">
+          <div class="work-about">
+            <h3>Shoping Website</h3>
+            <p>In this digital domain, innovation takes the lead,
+              A project where aspirations find their seed.
+              Step into our realm, where possibilities unfurl,
+              Welcome to a space where creativity whirls.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="img/bloging">
+          <div class="work-about">
+            <h3>Blogging Website</h3>
+            <p>In this digital domain, innovation takes the lead,
+              A project where aspirations find their seed.
+              Step into our realm, where possibilities unfurl,
+              Welcome to a space where creativity whirls.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="img/traveling.jpeg">
+          <div class="work-about">
+            <h3>Traveling Website</h3>
+            <p>In this digital domain, innovation takes the lead,
+              A project where aspirations find their seed.
+              Step into our realm, where possibilities unfurl,
+              Welcome to a space where creativity whirls.</p>
+            <a href="https://abadothali.github.io/Travel-site/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#contact" class="btn">See more..</a>
+
+    </div>
+  </div>
+
+  <!-------------------------------------------------Contact------------------------------------------------->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="contact-link">
+          <h1 class="sub-title">Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>khanabadothalikhan133@gmail.com</p>
+          <p><i class="fa-solid fa-mobile-screen"></i>81588 49581</p>
+          <div class="social-link">
+            <a href="https://www.instagram.com/abadothali/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/abadothkhan?t=bxRmRVzj8LYgmDtcHfKhvQ&s=08"><i
+                class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/abadoth-ali-khan-b7903b2a9/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/abadothali"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+          <div>
+            <a href="img/Resume.pdf" download class="btn cv-btn">Download CV</a>
+          </div>
+
+        </div>
+
+        <div class="contact-form">
+          <form name="submit-to-google-sheet">
+            <input type="text" Name="Name" placeholder="Enter Your Name" required>
+            <input type="email" Name="Email" placeholder="Enter Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn submit">Submit</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright Made By @abadothali With <i class="fa-solid fa-heart"></i> Yeh Website Bhot Mehenat Se Banaya Hai Koi
+        Copy Maat Kaar Na...</p>
+    </div>
+  </div>
+
+  <!----------------------------------------------Script tab---------------------------------------------------->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+
+  <!----------------------------------------------script of sidebar------------------------------------------->
+
+  <script>
+    var sidebar = document.getElementById("sidebar");
+
+    function openmenu() {
+      sidebar.style.right = "0";
+    }
+
+    function closemenu() {
+      sidebar.style.right = "-200px";
+    }
+
+
+  </script>
+
+  <!----------------------------------------------script of Email------------------------------------------->
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxYuDMWE3eC55pY1DG3otsaojZUS7d08LxI3wgA0gmCs79FSGgoZjtOTEAmd3CuoolT/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    });
+
+
+  </script>
+
+
+
+</body>
+
+</html>
